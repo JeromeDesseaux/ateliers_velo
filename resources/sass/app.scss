@@ -1,0 +1,78 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  // font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+.card {
+  // font-family: 'Open Sans', sans-serif;
+  a {
+    color: black;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+}
+
+.btn-green {
+  background-color: #38ada9;
+  border-color: #38ada9;
+  border-radius: 0px;
+  color:white !important;
+  &:hover{
+    background-color: #60a3bc;
+    border-color: #60a3bc;
+    cursor: pointer;
+  }
+}
+
+.card:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.white-bg {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:20px;
+  box-shadow: 0 0 11px rgba(33,33,33,.1); 
+  border-radius: 5px;
+}
+
+.important {
+  color: #079992;
+}
+
+hr {
+  border: none;
+  height:1px;
+  background-color: #0a3d62;
+}
+
+.btn-circle {
+  color: white;
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
